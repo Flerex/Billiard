@@ -1,0 +1,2792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2F1939E8506347B6A1CD1ED4 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2BBF565CB9C647FC8ED49975 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9AC52C5EFCB289A52FD8D4E8 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A84501300A6C4F03B60630D5 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0200A79532034B3096711487 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6F913432C6B31A7D04D1094A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B7049D954FD64B0B8BAC8BC9 /* PBXTargetDependency */,
+				6BA4313BE7404CC680CF5436 /* PBXTargetDependency */,
+				1A348E0F433F45FB8AF2A00D /* PBXTargetDependency */,
+				44A6A2AAF8404A85963EC7D8 /* PBXTargetDependency */,
+				8F5249F4440C4B2C835309D2 /* PBXTargetDependency */,
+				21E4325BC1F64E72B3DA7609 /* PBXTargetDependency */,
+				F02A75F1CF2F4F35A8A0D923 /* PBXTargetDependency */,
+				F2BEBF14954042BAA03B14A2 /* PBXTargetDependency */,
+				E5C3D5AEAA2340CE9B89E485 /* PBXTargetDependency */,
+				B18CEA6436684977A42F6D4B /* PBXTargetDependency */,
+				9FC10E8EF5A64C3985C05A19 /* PBXTargetDependency */,
+				7361CCC05AC04280AF59C9F3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0518D316BC8940FC94454957 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 2DA0303A17914960AD58F770 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		06DD3B05622746DA948B296E /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 502CB304134348C78B597125 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		0C41087B56E64D66B9D4F184 /* /Users/fbretal/software/Billiard/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F91916C1035D46588DC7FC78 /* /Users/fbretal/software/Billiard/cocos2d/external/clipper/CMakeLists.txt */; };
+		154F471FC8394A868323F741 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DA696857533745EBAE3D0DD0 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		157A58C9EF8045A9AFECE549 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 52A792BCD4614B7BB2CD3C63 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		1DCBBD8A82794EF08781EC0E /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9DF27B44D7ED421C98F6B95D /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		2025D3EF56A948B6A2984EFC /* /Users/fbretal/software/Billiard/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 59786B3209C34E79B8B2EF84 /* /Users/fbretal/software/Billiard/cocos2d/external/clipper/clipper.cpp */; };
+		20B2C0630A634678B3EE70C8 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AAFAABB691A24200B7CBD97B /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/CMakeLists.txt */; };
+		2A0CA11111444410A9D81BD1 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = B74ABB249E4946EC956928C6 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		2D87B6C910E148089206851E /* /Users/fbretal/software/Billiard/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 4F0976062CB84FE2A1308FFA /* /Users/fbretal/software/Billiard/cocos2d/external/md5/md5.c */; };
+		2E18DA06DF17490EB778C254 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 11A54CE03A234CFEA9DCF080 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		2EFCA2C009E740F29E017881 /* /Users/fbretal/software/Billiard/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3BED26D19DDA4C82BE5619F0 /* /Users/fbretal/software/Billiard/cocos2d/external/xxtea/CMakeLists.txt */; };
+		3BCFAE6107834D92A1F68FB6 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 364EE5030CD44DF9BED6BA43 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		4AE3C0DFDB164BD0A87D3489 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = 428377DE54FF49C48F7052B2 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		4CC4FD118DCE4295A03207EF /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 333B945D9D5F4DD68AF3F99F /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		5375021969374713B18F83DF /* /Users/fbretal/software/Billiard/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AABDAA48A4A6480FBCA32324 /* /Users/fbretal/software/Billiard/cocos2d/external/xxhash/CMakeLists.txt */; };
+		539D7C0E04764012B0D18E84 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = B882719770A044FC926BB61E /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/unzip.cpp */; };
+		5544EEA3CFBD44F3A8EDC8C4 /* /Users/fbretal/software/Billiard/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FE68FDBAE1FA4CCF8699C7C6 /* /Users/fbretal/software/Billiard/cocos2d/external/md5/CMakeLists.txt */; };
+		597D2D8FBECF43AFA157A812 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 4E58D9961E3F4567AA510F69 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		5C4EBF4E8443455FBCD13833 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 5BFBA0E0F2194A2D82BDD053 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		5D398223033E464BB2808B01 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = EF8249B9F350432C948D8F98 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		689C07CC5479439CB2036657 /* /Users/fbretal/software/Billiard/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 00079E1C6E2F47309B5CADAF /* /Users/fbretal/software/Billiard/cocos2d/external/xxtea/xxtea.cpp */; };
+		6B0B04C3251942018F04D5DB /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 02EED9F073274833A8FEDB23 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		7BF8ABE1878146D6A773902B /* /Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = AD1D179B90904687A307927A /* /Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		7DAF0D5A7CC24174A762877E /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 106CFC071AFE46AC9934E659 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		89659291B2374877BD71EE1B /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = BE921D17136344C99D608EE1 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi.cpp */; };
+		902BCAE1985346A49D02148E /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = 2EFA2DE777DA45FD8B81B8BF /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		9922371EA2D74334BB108EEE /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 51D8185D494D4E92A9B4B31A /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		9B2C225BFD9044AFBDD6B65C /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 45F85D539BA24A0C99350878 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		A1B7AD4808134C06A14B391F /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = B06424B608FB4EFFB6B28444 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		A43B51A3B17143F7B483BD57 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 40DC96D5BDB046FAAF9B60AA /* /Users/fbretal/software/Billiard/cocos2d/external/recast/CMakeLists.txt */; };
+		A78E3B996CE0460DB0E4ED4B /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 28102147634A4041A4A0E3AF /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		BB1F171C901A49109761B42B /* /Users/fbretal/software/Billiard/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 62A66D80FD614B97B562B723 /* /Users/fbretal/software/Billiard/cocos2d/external/xxhash/xxhash.c */; };
+		BCF02B65D7B24C91AC573A2E /* /Users/fbretal/software/Billiard/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8BC8A064C9FC4664BAC427DF /* /Users/fbretal/software/Billiard/cocos2d/external/CMakeLists.txt */; };
+		BF3016123BE24255AA3E3398 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 74DF22511B564A108AFEDEC8 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		C3F630EABB25448F9520138F /* /Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AF011DDB617B41E68777E598 /* /Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		C4363D4FD804400994427A7D /* /Users/fbretal/software/Billiard/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = 8B39CA51596E454B961038C6 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/fastlz/fastlz.c */; };
+		D7A1E135829D46A78E1B8157 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 426D8D3B4A224E19B519D94E /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		E18652A87C6449DE80B45B26 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 80989C981D064988A1CE4A0E /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/common/shapes.cc */; };
+		E50D41FBB03F42EA83DD186D /* /Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = 7D112FEC991D4D7EA8982400 /* /Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		EAE790269F414E1884687190 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = F81F228B066A41869258C014 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		EB07F5A402AE41D189B79503 /* /Users/fbretal/software/Billiard/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = 32F970F2279C42FCAD0C8CE6 /* /Users/fbretal/software/Billiard/cocos2d/external/empty.cpp */; };
+		EFCC2C4980CB4D46986A0C12 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 426D4D1BE6464CFEA088E3BA /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		F5C967CA214F4C2AAF730644 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 821F10D1673D4682954ED0DF /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		FC07E31385484CFEB327B83B /* /Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 487864B6BF374914B2984A0F /* /Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0A10267EDE2F428DB50C56DC /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		798EF82F10334F5AACBE099C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9D9CE3DBA68540E9A3A68F67 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A0495AB6F41E43E6B09888DD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0380840D7FF140A8B1937EC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33EDC5102BD40EE87A1C6FE;
+			remoteInfo = ext_poly2tri;
+		};
+		103EA2C56E01479E8571A008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9C180EA4CD4DA1B3E14537;
+			remoteInfo = ext_tinyxml2;
+		};
+		19538286CB024DED8801B106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1939E8506347B6A1CD1ED4;
+			remoteInfo = ZERO_CHECK;
+		};
+		1C234D9D97A34196B4E1C9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3BDFE773EF0468692B7356C;
+			remoteInfo = ext_clipper;
+		};
+		25315A1CDAC34939B06C252E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D63D15019A4FF18EFD4090;
+			remoteInfo = ext_unzip;
+		};
+		2B6E9474798E4ADD92F4D494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38EE9762C6E4F09895B15D9;
+			remoteInfo = external;
+		};
+		2C4AC5CEEC5B4C00A47D215A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF824CB76F6447D680B2EAAA;
+			remoteInfo = ext_convertUTF;
+		};
+		4ADF887C405347B38BF8F0B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3BDFE773EF0468692B7356C;
+			remoteInfo = ext_clipper;
+		};
+		4B25E8167B824CFEAF281C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 328E1A3FD005416090E7B5A6;
+			remoteInfo = ext_recast;
+		};
+		62D63FE382FE42A595EB36B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33EDC5102BD40EE87A1C6FE;
+			remoteInfo = ext_poly2tri;
+		};
+		71AB4412C2F9488D9D39B67B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF168E86A6B4F1596BBC36C;
+			remoteInfo = ext_xxtea;
+		};
+		7EC2B88E966947CFB60DE96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 328E1A3FD005416090E7B5A6;
+			remoteInfo = ext_recast;
+		};
+		858480FF2EDE430D9139C082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1939E8506347B6A1CD1ED4;
+			remoteInfo = ZERO_CHECK;
+		};
+		9ABEA8F83E50442CB682CE80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D971631663D4CE094632305;
+			remoteInfo = ext_xxhash;
+		};
+		9D6E7FBB4BD346B5BC048864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA37E3223CAF4C56BA3A2338;
+			remoteInfo = ext_md5;
+		};
+		A118222147CB452E84F1E3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D971631663D4CE094632305;
+			remoteInfo = ext_xxhash;
+		};
+		BD203CB594144530AAF8183E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA37E3223CAF4C56BA3A2338;
+			remoteInfo = ext_md5;
+		};
+		E38F19239E5D495AB74DB8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF168E86A6B4F1596BBC36C;
+			remoteInfo = ext_xxtea;
+		};
+		E73845B7BE3D4CE0871448BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75E574CFEAD4207ACA9BCC8;
+			remoteInfo = ext_edtaa3func;
+		};
+		EF423F92F09443848D0E2434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF824CB76F6447D680B2EAAA;
+			remoteInfo = ext_convertUTF;
+		};
+		F42BB2AA8BD446F7A90C4176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9C180EA4CD4DA1B3E14537;
+			remoteInfo = ext_tinyxml2;
+		};
+		F461AF6B385342E3B59B12BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75E574CFEAD4207ACA9BCC8;
+			remoteInfo = ext_edtaa3func;
+		};
+		FF8F6FEA945F4F0097D7FFE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DB225E633743C698EFFF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D63D15019A4FF18EFD4090;
+			remoteInfo = ext_unzip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00079E1C6E2F47309B5CADAF /* /Users/fbretal/software/Billiard/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		02EED9F073274833A8FEDB23 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		106CFC071AFE46AC9934E659 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		11A54CE03A234CFEA9DCF080 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		28102147634A4041A4A0E3AF /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		2DA0303A17914960AD58F770 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		2EFA2DE777DA45FD8B81B8BF /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		32F970F2279C42FCAD0C8CE6 /* /Users/fbretal/software/Billiard/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		333B945D9D5F4DD68AF3F99F /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		364EE5030CD44DF9BED6BA43 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		3BED26D19DDA4C82BE5619F0 /* /Users/fbretal/software/Billiard/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		40DC96D5BDB046FAAF9B60AA /* /Users/fbretal/software/Billiard/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		426D4D1BE6464CFEA088E3BA /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		426D8D3B4A224E19B519D94E /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		428377DE54FF49C48F7052B2 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		45F85D539BA24A0C99350878 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		487864B6BF374914B2984A0F /* /Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4E58D9961E3F4567AA510F69 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		4F0976062CB84FE2A1308FFA /* /Users/fbretal/software/Billiard/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		502CB304134348C78B597125 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		51D8185D494D4E92A9B4B31A /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		52A792BCD4614B7BB2CD3C63 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		5442537A095641429ABB5CC0 /* /Users/fbretal/software/Billiard/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		59786B3209C34E79B8B2EF84 /* /Users/fbretal/software/Billiard/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		5BFBA0E0F2194A2D82BDD053 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		5FCE50EE9B5A4B1086A38EC1 /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A66D80FD614B97B562B723 /* /Users/fbretal/software/Billiard/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		74DF22511B564A108AFEDEC8 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		7D112FEC991D4D7EA8982400 /* /Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		80989C981D064988A1CE4A0E /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		821F10D1673D4682954ED0DF /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		833A2ACF1BF644D8A0A2C116 /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DCD811FBC48C8964F5489 /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		895B7C1640B04945BB7B58E3 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B39CA51596E454B961038C6 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		8BC8A064C9FC4664BAC427DF /* /Users/fbretal/software/Billiard/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9161387759CE428182C6005C /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF27B44D7ED421C98F6B95D /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A25E2898C39B4289BF416F2E /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABDAA48A4A6480FBCA32324 /* /Users/fbretal/software/Billiard/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AAFAABB691A24200B7CBD97B /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AD1D179B90904687A307927A /* /Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		AF011DDB617B41E68777E598 /* /Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B06424B608FB4EFFB6B28444 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		B74ABB249E4946EC956928C6 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		B882719770A044FC926BB61E /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		BE921D17136344C99D608EE1 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		C74FB06E6B5443A7ABBA97C8 /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B0092F9747443292376FD9 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA696857533745EBAE3D0DD0 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EF8249B9F350432C948D8F98 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		EFBCFC69AC2A4D9387CE9B7D /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F1A27A64684DF2BC8F0303 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75300E5B28841E8B7DD7F7A /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81F228B066A41869258C014 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		F91916C1035D46588DC7FC78 /* /Users/fbretal/software/Billiard/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FE68FDBAE1FA4CCF8699C7C6 /* /Users/fbretal/software/Billiard/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BDE03DC2E9342D384B5DB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803426660B0F4C54B86E94D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1877A0AD68B446C9A6DE910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5FDA1DCDB464BA1633687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B296F9B94AE944CBA842882D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DC1D7B06D74052A44CD352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE18D92894534B34B5FAF4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C144B45526A14767A2F5B9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFF62EE54E548C686A107FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E149BEB203C140F99E6F190D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AB378D5C4D47E78451C5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE000B05FD644608C2CA1B6 /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				BC22D211FDED4E928195FCA1 /* Source Files */,
+				40DC96D5BDB046FAAF9B60AA /* /Users/fbretal/software/Billiard/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		2327EEE8EB90482AB8B9F155 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				A69B21A21168460EA16259AD /* Source Files */,
+				9DF27B44D7ED421C98F6B95D /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		23538D0E1C464D7A92A46F88 /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				9E635F9A417747E0B8AEDFA6 /* Source Files */,
+				3BED26D19DDA4C82BE5619F0 /* /Users/fbretal/software/Billiard/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		3D625719E10341E1AA0BFB65 = {
+			isa = PBXGroup;
+			children = (
+				B8262624640E4877AA914584 /* External */,
+				576F0A256F0F4809964716C3 /* ALL_BUILD */,
+				3DB69DB681FB4A7A899CC575 /* Products */,
+				752FC62004864F2692B3B9D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB69DB681FB4A7A899CC575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBCFC69AC2A4D9387CE9B7D /* ext_clipper */,
+				895B7C1640B04945BB7B58E3 /* ext_convertUTF */,
+				A25E2898C39B4289BF416F2E /* ext_edtaa3func */,
+				F75300E5B28841E8B7DD7F7A /* ext_md5 */,
+				847DCD811FBC48C8964F5489 /* ext_poly2tri */,
+				D3B0092F9747443292376FD9 /* ext_recast */,
+				5FCE50EE9B5A4B1086A38EC1 /* ext_tinyxml2 */,
+				9161387759CE428182C6005C /* ext_unzip */,
+				C74FB06E6B5443A7ABBA97C8 /* ext_xxhash */,
+				F2F1A27A64684DF2BC8F0303 /* ext_xxtea */,
+				833A2ACF1BF644D8A0A2C116 /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F25629D59149FD8D3BA24E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				59786B3209C34E79B8B2EF84 /* /Users/fbretal/software/Billiard/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		43E959EEC2004B459FE6386A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				62A66D80FD614B97B562B723 /* /Users/fbretal/software/Billiard/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4BBBE5D79A614B9090C43634 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE921D17136344C99D608EE1 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi.cpp */,
+				364EE5030CD44DF9BED6BA43 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi_mem.cpp */,
+				B882719770A044FC926BB61E /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		576F0A256F0F4809964716C3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B37CEA3FA51B4EDAA35C1388 /* CMake Rules */,
+				5442537A095641429ABB5CC0 /* /Users/fbretal/software/Billiard/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5BBC02C8C9974006A6B68F75 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F0976062CB84FE2A1308FFA /* /Users/fbretal/software/Billiard/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5BDE4E048CBA429B85322435 /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				42F25629D59149FD8D3BA24E /* Source Files */,
+				F91916C1035D46588DC7FC78 /* /Users/fbretal/software/Billiard/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		6959AE8A451A435AB1DD1DFA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F970F2279C42FCAD0C8CE6 /* /Users/fbretal/software/Billiard/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		752FC62004864F2692B3B9D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91A37A76915A42B480ADCBFB /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				E77D977CC2844DFA861EE6BD /* Source Files */,
+				AF011DDB617B41E68777E598 /* /Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		967484E73D8A4983A08F74EF /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				A0833FAB69974D9897D71741 /* Source Files */,
+				DA696857533745EBAE3D0DD0 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		97739598476F44D2BAC0325A /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				4BBBE5D79A614B9090C43634 /* Source Files */,
+				AAFAABB691A24200B7CBD97B /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		9E635F9A417747E0B8AEDFA6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				00079E1C6E2F47309B5CADAF /* /Users/fbretal/software/Billiard/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A0833FAB69974D9897D71741 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				80989C981D064988A1CE4A0E /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/common/shapes.cc */,
+				28102147634A4041A4A0E3AF /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				426D8D3B4A224E19B519D94E /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				426D4D1BE6464CFEA088E3BA /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				11A54CE03A234CFEA9DCF080 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A69B21A21168460EA16259AD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF8249B9F350432C948D8F98 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				2DA0303A17914960AD58F770 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A8B0C6164784447EB54E6041 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				43E959EEC2004B459FE6386A /* Source Files */,
+				AABDAA48A4A6480FBCA32324 /* /Users/fbretal/software/Billiard/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		B37CEA3FA51B4EDAA35C1388 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B8262624640E4877AA914584 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				DB38A79019824467A39640DE /* external */,
+				1BE000B05FD644608C2CA1B6 /* ext_recast */,
+				91A37A76915A42B480ADCBFB /* ext_tinyxml2 */,
+				A8B0C6164784447EB54E6041 /* ext_xxhash */,
+				23538D0E1C464D7A92A46F88 /* ext_xxtea */,
+				5BDE4E048CBA429B85322435 /* ext_clipper */,
+				C6DA72C763514D5998535A20 /* ext_edtaa3func */,
+				2327EEE8EB90482AB8B9F155 /* ext_convertUTF */,
+				967484E73D8A4983A08F74EF /* ext_poly2tri */,
+				FE7A9DD082024990B0535102 /* ext_md5 */,
+				97739598476F44D2BAC0325A /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		BC22D211FDED4E928195FCA1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				51D8185D494D4E92A9B4B31A /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				5BFBA0E0F2194A2D82BDD053 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				333B945D9D5F4DD68AF3F99F /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				821F10D1673D4682954ED0DF /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				2EFA2DE777DA45FD8B81B8BF /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				B06424B608FB4EFFB6B28444 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				52A792BCD4614B7BB2CD3C63 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				45F85D539BA24A0C99350878 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				428377DE54FF49C48F7052B2 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				B74ABB249E4946EC956928C6 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				502CB304134348C78B597125 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				106CFC071AFE46AC9934E659 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				F81F228B066A41869258C014 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				4E58D9961E3F4567AA510F69 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				74DF22511B564A108AFEDEC8 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				02EED9F073274833A8FEDB23 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				8B39CA51596E454B961038C6 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C6DA72C763514D5998535A20 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				FC397551D22A4CDD845ED1FA /* Source Files */,
+				487864B6BF374914B2984A0F /* /Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		DB38A79019824467A39640DE /* external */ = {
+			isa = PBXGroup;
+			children = (
+				6959AE8A451A435AB1DD1DFA /* Source Files */,
+				8BC8A064C9FC4664BAC427DF /* /Users/fbretal/software/Billiard/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		E77D977CC2844DFA861EE6BD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD1D179B90904687A307927A /* /Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FC397551D22A4CDD845ED1FA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D112FEC991D4D7EA8982400 /* /Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FE7A9DD082024990B0535102 /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				5BBC02C8C9974006A6B68F75 /* Source Files */,
+				FE68FDBAE1FA4CCF8699C7C6 /* /Users/fbretal/software/Billiard/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		328E1A3FD005416090E7B5A6 /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34090A27C3C34FB2A95272E3 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				0F735E1897C6471B8182A521 /* Sources */,
+				6BDE03DC2E9342D384B5DB97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = D3B0092F9747443292376FD9 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50D63D15019A4FF18EFD4090 /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46CDF8A27A94A98B42A81FD /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				1F2E4689942E4D968C73DE6C /* Sources */,
+				BE18D92894534B34B5FAF4B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 9161387759CE428182C6005C /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5D971631663D4CE094632305 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD75530D3D94153A189D64F /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				B38A1E4D6C194DC1878275ED /* Sources */,
+				803426660B0F4C54B86E94D3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = C74FB06E6B5443A7ABBA97C8 /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BAF168E86A6B4F1596BBC36C /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B75F6CED0A44449B5D9048 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				28C8BD2C37CF4F6F88C757FB /* Sources */,
+				CAFF62EE54E548C686A107FB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = F2F1A27A64684DF2BC8F0303 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C33EDC5102BD40EE87A1C6FE /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D3B9F9474A146BEB20C5457 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				438946B77B784BC686BBCB8E /* Sources */,
+				A5A5FDA1DCDB464BA1633687 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = 847DCD811FBC48C8964F5489 /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C38EE9762C6E4F09895B15D9 /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870CD238F8734501B900806E /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				DE7A91E45CBE493E968F7CF0 /* Sources */,
+				A1877A0AD68B446C9A6DE910 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0227941C209040FC82679309 /* PBXTargetDependency */,
+				4629A3A85CE54865826AAF4B /* PBXTargetDependency */,
+				620C40D58A60484BAEDD2B7A /* PBXTargetDependency */,
+				93737BA6CC3E4CB4B689DC0D /* PBXTargetDependency */,
+				2C91FD718F024C8F8E185653 /* PBXTargetDependency */,
+				AD4E9100CB8643CAA958D292 /* PBXTargetDependency */,
+				5FEA1D4E3402415F8D1322CE /* PBXTargetDependency */,
+				79226DD8667F4E589D10C1D8 /* PBXTargetDependency */,
+				59CD54D745D7464392ED813B /* PBXTargetDependency */,
+				9707065E2E71465EAA56F0EE /* PBXTargetDependency */,
+				7FF2FC02E6444516B4FFC47B /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = 833A2ACF1BF644D8A0A2C116 /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3BDFE773EF0468692B7356C /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753759BB062F423FAE7197DC /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				259B64CC41D446328FF4EE41 /* Sources */,
+				B2DC1D7B06D74052A44CD352 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = EFBCFC69AC2A4D9387CE9B7D /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C75E574CFEAD4207ACA9BCC8 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141260288D5D479DA088C987 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				98BBFFAE9E31407582B485C2 /* Sources */,
+				C144B45526A14767A2F5B9DC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = A25E2898C39B4289BF416F2E /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA37E3223CAF4C56BA3A2338 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB50F56679B4F9D87632DB7 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				49636D36160E49CE8255CF98 /* Sources */,
+				E149BEB203C140F99E6F190D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = F75300E5B28841E8B7DD7F7A /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA9C180EA4CD4DA1B3E14537 /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EEED05257A4DE19F090ACE /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				8966C10987DC4DB48477584A /* Sources */,
+				B296F9B94AE944CBA842882D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = 5FCE50EE9B5A4B1086A38EC1 /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF824CB76F6447D680B2EAAA /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C376E08389134E7FAED9FB81 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				D5A3EF4DDC1C4AFC8F9D45B0 /* Sources */,
+				F0AB378D5C4D47E78451C5E5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 895B7C1640B04945BB7B58E3 /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43DB225E633743C698EFFF52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 24C2E1CBFE8F4C038AE86052 /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				798EF82F10334F5AACBE099C /* Debug */,
+				A0495AB6F41E43E6B09888DD /* Release */,
+				9D9CE3DBA68540E9A3A68F67 /* MinSizeRel */,
+				0A10267EDE2F428DB50C56DC /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3D625719E10341E1AA0BFB65;
+			projectDirPath = ../../../cocos2d/external;
+			projectRoot = "";
+			targets = (
+				A84501300A6C4F03B60630D5 /* ALL_BUILD */,
+				2F1939E8506347B6A1CD1ED4 /* ZERO_CHECK */,
+				C3BDFE773EF0468692B7356C /* ext_clipper */,
+				FF824CB76F6447D680B2EAAA /* ext_convertUTF */,
+				C75E574CFEAD4207ACA9BCC8 /* ext_edtaa3func */,
+				FA37E3223CAF4C56BA3A2338 /* ext_md5 */,
+				C33EDC5102BD40EE87A1C6FE /* ext_poly2tri */,
+				328E1A3FD005416090E7B5A6 /* ext_recast */,
+				FA9C180EA4CD4DA1B3E14537 /* ext_tinyxml2 */,
+				50D63D15019A4FF18EFD4090 /* ext_unzip */,
+				5D971631663D4CE094632305 /* ext_xxhash */,
+				BAF168E86A6B4F1596BBC36C /* ext_xxtea */,
+				C38EE9762C6E4F09895B15D9 /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6F913432C6B31A7D04D1094A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/fbretal/software/Billiard/mac-build/engine/external/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/fbretal/software/Billiard/mac-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/fbretal/software/Billiard/mac-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/fbretal/software/Billiard/mac-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/fbretal/software/Billiard/mac-build/engine/external
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9AC52C5EFCB289A52FD8D4E8 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/fbretal/software/Billiard/mac-build/engine/external/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/fbretal/software/Billiard/mac-build/engine/external
+  make -f /Users/fbretal/software/Billiard/mac-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/fbretal/software/Billiard/mac-build/engine/external
+  make -f /Users/fbretal/software/Billiard/mac-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/fbretal/software/Billiard/mac-build/engine/external
+  make -f /Users/fbretal/software/Billiard/mac-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/fbretal/software/Billiard/mac-build/engine/external
+  make -f /Users/fbretal/software/Billiard/mac-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F735E1897C6471B8182A521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9922371EA2D74334BB108EEE /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				5C4EBF4E8443455FBCD13833 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				4CC4FD118DCE4295A03207EF /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				F5C967CA214F4C2AAF730644 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				902BCAE1985346A49D02148E /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				A1B7AD4808134C06A14B391F /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				157A58C9EF8045A9AFECE549 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				9B2C225BFD9044AFBDD6B65C /* /Users/fbretal/software/Billiard/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				4AE3C0DFDB164BD0A87D3489 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				2A0CA11111444410A9D81BD1 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				06DD3B05622746DA948B296E /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				7DAF0D5A7CC24174A762877E /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				EAE790269F414E1884687190 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				597D2D8FBECF43AFA157A812 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				BF3016123BE24255AA3E3398 /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				6B0B04C3251942018F04D5DB /* /Users/fbretal/software/Billiard/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				C4363D4FD804400994427A7D /* /Users/fbretal/software/Billiard/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2E4689942E4D968C73DE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89659291B2374877BD71EE1B /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi.cpp */,
+				3BCFAE6107834D92A1F68FB6 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/ioapi_mem.cpp */,
+				539D7C0E04764012B0D18E84 /* /Users/fbretal/software/Billiard/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B64CC41D446328FF4EE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2025D3EF56A948B6A2984EFC /* /Users/fbretal/software/Billiard/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C8BD2C37CF4F6F88C757FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689C07CC5479439CB2036657 /* /Users/fbretal/software/Billiard/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438946B77B784BC686BBCB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18652A87C6449DE80B45B26 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/common/shapes.cc */,
+				A78E3B996CE0460DB0E4ED4B /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				D7A1E135829D46A78E1B8157 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				EFCC2C4980CB4D46986A0C12 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				2E18DA06DF17490EB778C254 /* /Users/fbretal/software/Billiard/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49636D36160E49CE8255CF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D87B6C910E148089206851E /* /Users/fbretal/software/Billiard/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8966C10987DC4DB48477584A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF8ABE1878146D6A773902B /* /Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BBFFAE9E31407582B485C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50D41FBB03F42EA83DD186D /* /Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38A1E4D6C194DC1878275ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1F171C901A49109761B42B /* /Users/fbretal/software/Billiard/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A3EF4DDC1C4AFC8F9D45B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D398223033E464BB2808B01 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				0518D316BC8940FC94454957 /* /Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7A91E45CBE493E968F7CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB07F5A402AE41D189B79503 /* /Users/fbretal/software/Billiard/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0227941C209040FC82679309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1939E8506347B6A1CD1ED4 /* ZERO_CHECK */;
+			targetProxy = 19538286CB024DED8801B106 /* PBXContainerItemProxy */;
+		};
+		1A348E0F433F45FB8AF2A00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 328E1A3FD005416090E7B5A6 /* ext_recast */;
+			targetProxy = 7EC2B88E966947CFB60DE96A /* PBXContainerItemProxy */;
+		};
+		21E4325BC1F64E72B3DA7609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF168E86A6B4F1596BBC36C /* ext_xxtea */;
+			targetProxy = E38F19239E5D495AB74DB8F7 /* PBXContainerItemProxy */;
+		};
+		2C91FD718F024C8F8E185653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF168E86A6B4F1596BBC36C /* ext_xxtea */;
+			targetProxy = 71AB4412C2F9488D9D39B67B /* PBXContainerItemProxy */;
+		};
+		44A6A2AAF8404A85963EC7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9C180EA4CD4DA1B3E14537 /* ext_tinyxml2 */;
+			targetProxy = 103EA2C56E01479E8571A008 /* PBXContainerItemProxy */;
+		};
+		4629A3A85CE54865826AAF4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 328E1A3FD005416090E7B5A6 /* ext_recast */;
+			targetProxy = 4B25E8167B824CFEAF281C86 /* PBXContainerItemProxy */;
+		};
+		59CD54D745D7464392ED813B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33EDC5102BD40EE87A1C6FE /* ext_poly2tri */;
+			targetProxy = 62D63FE382FE42A595EB36B1 /* PBXContainerItemProxy */;
+		};
+		5FEA1D4E3402415F8D1322CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75E574CFEAD4207ACA9BCC8 /* ext_edtaa3func */;
+			targetProxy = F461AF6B385342E3B59B12BA /* PBXContainerItemProxy */;
+		};
+		620C40D58A60484BAEDD2B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9C180EA4CD4DA1B3E14537 /* ext_tinyxml2 */;
+			targetProxy = F42BB2AA8BD446F7A90C4176 /* PBXContainerItemProxy */;
+		};
+		6BA4313BE7404CC680CF5436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38EE9762C6E4F09895B15D9 /* external */;
+			targetProxy = 2B6E9474798E4ADD92F4D494 /* PBXContainerItemProxy */;
+		};
+		7361CCC05AC04280AF59C9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D63D15019A4FF18EFD4090 /* ext_unzip */;
+			targetProxy = 25315A1CDAC34939B06C252E /* PBXContainerItemProxy */;
+		};
+		79226DD8667F4E589D10C1D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF824CB76F6447D680B2EAAA /* ext_convertUTF */;
+			targetProxy = 2C4AC5CEEC5B4C00A47D215A /* PBXContainerItemProxy */;
+		};
+		7FF2FC02E6444516B4FFC47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D63D15019A4FF18EFD4090 /* ext_unzip */;
+			targetProxy = FF8F6FEA945F4F0097D7FFE0 /* PBXContainerItemProxy */;
+		};
+		8F5249F4440C4B2C835309D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D971631663D4CE094632305 /* ext_xxhash */;
+			targetProxy = 9ABEA8F83E50442CB682CE80 /* PBXContainerItemProxy */;
+		};
+		93737BA6CC3E4CB4B689DC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D971631663D4CE094632305 /* ext_xxhash */;
+			targetProxy = A118222147CB452E84F1E3CC /* PBXContainerItemProxy */;
+		};
+		9707065E2E71465EAA56F0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA37E3223CAF4C56BA3A2338 /* ext_md5 */;
+			targetProxy = 9D6E7FBB4BD346B5BC048864 /* PBXContainerItemProxy */;
+		};
+		9FC10E8EF5A64C3985C05A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA37E3223CAF4C56BA3A2338 /* ext_md5 */;
+			targetProxy = BD203CB594144530AAF8183E /* PBXContainerItemProxy */;
+		};
+		AD4E9100CB8643CAA958D292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3BDFE773EF0468692B7356C /* ext_clipper */;
+			targetProxy = 1C234D9D97A34196B4E1C9E3 /* PBXContainerItemProxy */;
+		};
+		B18CEA6436684977A42F6D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33EDC5102BD40EE87A1C6FE /* ext_poly2tri */;
+			targetProxy = 0380840D7FF140A8B1937EC9 /* PBXContainerItemProxy */;
+		};
+		B7049D954FD64B0B8BAC8BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1939E8506347B6A1CD1ED4 /* ZERO_CHECK */;
+			targetProxy = 858480FF2EDE430D9139C082 /* PBXContainerItemProxy */;
+		};
+		E5C3D5AEAA2340CE9B89E485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF824CB76F6447D680B2EAAA /* ext_convertUTF */;
+			targetProxy = EF423F92F09443848D0E2434 /* PBXContainerItemProxy */;
+		};
+		F02A75F1CF2F4F35A8A0D923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3BDFE773EF0468692B7356C /* ext_clipper */;
+			targetProxy = 4ADF887C405347B38BF8F0B6 /* PBXContainerItemProxy */;
+		};
+		F2BEBF14954042BAA03B14A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75E574CFEAD4207ACA9BCC8 /* ext_edtaa3func */;
+			targetProxy = E73845B7BE3D4CE0871448BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0065A68950CA486EB688D14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		073A245DFF5641A2A478F0FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/unzip/.,/Users/fbretal/software/Billiard/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		075C23F5085643C98DA9A3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0A792E4BC4E84649A92D875C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0B70E375CB7548F79153D258 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		12034D67CBFB4EDFB801F10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		13B072421118439D999BA293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1BBF3C2613CD434FA0A12118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1CB5705E2DA147E587C2F7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		28098E0184814467B275FAEF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2F8BC35C496F4F36860EB0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3167C3EBB20E485D98A3CEF7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		32638200391B4B9AADFD1AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		326E5219DA8C4FDAA10A4AFD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3D50BECA47D44B5B91D66EC6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4E6437C44C134E5496A83707 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		65A5B80E394847A4B060F735 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/build";
+			};
+			name = MinSizeRel;
+		};
+		6A0A6D4CF2D24683A42D7691 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/recast/..,/Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/.,/Users/fbretal/software/Billiard/cocos2d/external/xxhash/.,/Users/fbretal/software/Billiard/cocos2d/external/xxtea/.,/Users/fbretal/software/Billiard/cocos2d/external/clipper/.,/Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/.,/Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/.,/Users/fbretal/software/Billiard/cocos2d/external/poly2tri/..,/Users/fbretal/software/Billiard/cocos2d/external/md5/..,/Users/fbretal/software/Billiard/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/Box2D/include,/Users/fbretal/software/Billiard/cocos2d/external/chipmunk/include,/Users/fbretal/software/Billiard/cocos2d/external/freetype2/include/mac/freetype2,/Users/fbretal/software/Billiard/cocos2d/external/bullet/include,/Users/fbretal/software/Billiard/cocos2d/external/bullet/include/bullet,/Users/fbretal/software/Billiard/cocos2d/external/jpeg/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/openssl/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/uv/include,/Users/fbretal/software/Billiard/cocos2d/external/webp/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/websockets/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/curl/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/png/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/glfw3/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/zlib/include,"/Users/fbretal/software/Billiard/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		78C428C1322D4CF59E2CE3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7A4CD50D98C04DCD89D90822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7FCCCEEDD9C0481C8548F8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		80041D396E5D4C9693A7CDE0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		812785AD53214A76A00FFD29 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/unzip/.,/Users/fbretal/software/Billiard/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		890D86418F97452E86839C55 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/recast/..,/Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/.,/Users/fbretal/software/Billiard/cocos2d/external/xxhash/.,/Users/fbretal/software/Billiard/cocos2d/external/xxtea/.,/Users/fbretal/software/Billiard/cocos2d/external/clipper/.,/Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/.,/Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/.,/Users/fbretal/software/Billiard/cocos2d/external/poly2tri/..,/Users/fbretal/software/Billiard/cocos2d/external/md5/..,/Users/fbretal/software/Billiard/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/Box2D/include,/Users/fbretal/software/Billiard/cocos2d/external/chipmunk/include,/Users/fbretal/software/Billiard/cocos2d/external/freetype2/include/mac/freetype2,/Users/fbretal/software/Billiard/cocos2d/external/bullet/include,/Users/fbretal/software/Billiard/cocos2d/external/bullet/include/bullet,/Users/fbretal/software/Billiard/cocos2d/external/jpeg/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/openssl/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/uv/include,/Users/fbretal/software/Billiard/cocos2d/external/webp/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/websockets/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/curl/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/png/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/glfw3/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/zlib/include,"/Users/fbretal/software/Billiard/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8A00F0163DFC46D88B96F135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8C9E8C2B5D2143B982E69671 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		937F1D438DAC4533A90A43FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9A0E9D6D34724F49A00FF5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9BAC37E16257454F85A1F970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/recast/..,/Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/.,/Users/fbretal/software/Billiard/cocos2d/external/xxhash/.,/Users/fbretal/software/Billiard/cocos2d/external/xxtea/.,/Users/fbretal/software/Billiard/cocos2d/external/clipper/.,/Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/.,/Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/.,/Users/fbretal/software/Billiard/cocos2d/external/poly2tri/..,/Users/fbretal/software/Billiard/cocos2d/external/md5/..,/Users/fbretal/software/Billiard/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/Box2D/include,/Users/fbretal/software/Billiard/cocos2d/external/chipmunk/include,/Users/fbretal/software/Billiard/cocos2d/external/freetype2/include/mac/freetype2,/Users/fbretal/software/Billiard/cocos2d/external/bullet/include,/Users/fbretal/software/Billiard/cocos2d/external/bullet/include/bullet,/Users/fbretal/software/Billiard/cocos2d/external/jpeg/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/openssl/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/uv/include,/Users/fbretal/software/Billiard/cocos2d/external/webp/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/websockets/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/curl/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/png/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/glfw3/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/zlib/include,"/Users/fbretal/software/Billiard/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9D60C21C47F042178E10150D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ACC5EEE22DE848FD957E6B5B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B129117C9688498C9B3D3346 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B23CC9847A074983947D05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/unzip/.,/Users/fbretal/software/Billiard/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B3139F9FB2AA41AA9F9D6C03 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B51C0B33BC15490887720357 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B8BDC0D1C4A6476DBCA2985B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BA81AEC392DE499299F82EC0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C02F5A9F1AA3409C8F4E4573 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C3D4239D9D7C4E3CBD8720E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C8229E6216414728AB1951B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/recast/..,/Users/fbretal/software/Billiard/cocos2d/external/tinyxml2/.,/Users/fbretal/software/Billiard/cocos2d/external/xxhash/.,/Users/fbretal/software/Billiard/cocos2d/external/xxtea/.,/Users/fbretal/software/Billiard/cocos2d/external/clipper/.,/Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/.,/Users/fbretal/software/Billiard/cocos2d/external/ConvertUTF/.,/Users/fbretal/software/Billiard/cocos2d/external/poly2tri/..,/Users/fbretal/software/Billiard/cocos2d/external/md5/..,/Users/fbretal/software/Billiard/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/Box2D/include,/Users/fbretal/software/Billiard/cocos2d/external/chipmunk/include,/Users/fbretal/software/Billiard/cocos2d/external/freetype2/include/mac/freetype2,/Users/fbretal/software/Billiard/cocos2d/external/bullet/include,/Users/fbretal/software/Billiard/cocos2d/external/bullet/include/bullet,/Users/fbretal/software/Billiard/cocos2d/external/jpeg/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/openssl/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/uv/include,/Users/fbretal/software/Billiard/cocos2d/external/webp/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/websockets/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/curl/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/png/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/glfw3/include/mac,/Users/fbretal/software/Billiard/cocos2d/external/zlib/include,"/Users/fbretal/software/Billiard/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D59F4C45A6C448A997D0EBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/build";
+			};
+			name = Release;
+		};
+		D5C0966BCEF548438D4DC5FE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D5C57075E74A4C2D9A0DDAAF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D7D9DD48225C46BFA8430542 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/build";
+			};
+			name = RelWithDebInfo;
+		};
+		D8DB34D73E344034B69CB398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D951C83DCD954384A6F72243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/unzip/.,/Users/fbretal/software/Billiard/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E189E17FA7F7472EBB95132B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E352F809D93C4C5593CFE966 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E41435CA38D8494F8471748A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E47B5D3CEF6049C294A3172D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EEBE9AF0AE5B4E719542E6A8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EF1CFC7749474F669E98DF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EF62CEBA3CCC4A52B8824DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/build";
+			};
+			name = Debug;
+		};
+		F556A1FB13BE4C2794F39BAC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F591D3D4E0F54A8BA0042C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "'-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F8A8D5D2CC5547E98A746621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fbretal/software/Billiard/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/fbretal/software/Billiard/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fbretal/software/Billiard/mac-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0200A79532034B3096711487 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41435CA38D8494F8471748A /* Debug */,
+				D8DB34D73E344034B69CB398 /* Release */,
+				3167C3EBB20E485D98A3CEF7 /* MinSizeRel */,
+				EEBE9AF0AE5B4E719542E6A8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0CD75530D3D94153A189D64F /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0E9D6D34724F49A00FF5FF /* Debug */,
+				F591D3D4E0F54A8BA0042C06 /* Release */,
+				D5C57075E74A4C2D9A0DDAAF /* MinSizeRel */,
+				4E6437C44C134E5496A83707 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		141260288D5D479DA088C987 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4CD50D98C04DCD89D90822 /* Debug */,
+				12034D67CBFB4EDFB801F10B /* Release */,
+				E352F809D93C4C5593CFE966 /* MinSizeRel */,
+				0A792E4BC4E84649A92D875C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1FB50F56679B4F9D87632DB7 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BBF3C2613CD434FA0A12118 /* Debug */,
+				9D60C21C47F042178E10150D /* Release */,
+				D5C0966BCEF548438D4DC5FE /* MinSizeRel */,
+				326E5219DA8C4FDAA10A4AFD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		23EEED05257A4DE19F090ACE /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A00F0163DFC46D88B96F135 /* Debug */,
+				7FCCCEEDD9C0481C8548F8AA /* Release */,
+				3D50BECA47D44B5B91D66EC6 /* MinSizeRel */,
+				80041D396E5D4C9693A7CDE0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24C2E1CBFE8F4C038AE86052 /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF62CEBA3CCC4A52B8824DA0 /* Debug */,
+				D59F4C45A6C448A997D0EBC7 /* Release */,
+				65A5B80E394847A4B060F735 /* MinSizeRel */,
+				D7D9DD48225C46BFA8430542 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2BBF565CB9C647FC8ED49975 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E189E17FA7F7472EBB95132B /* Debug */,
+				1CB5705E2DA147E587C2F7FE /* Release */,
+				BA81AEC392DE499299F82EC0 /* MinSizeRel */,
+				F556A1FB13BE4C2794F39BAC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D3B9F9474A146BEB20C5457 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32638200391B4B9AADFD1AF2 /* Debug */,
+				075C23F5085643C98DA9A3CC /* Release */,
+				E47B5D3CEF6049C294A3172D /* MinSizeRel */,
+				28098E0184814467B275FAEF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		34090A27C3C34FB2A95272E3 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8BC35C496F4F36860EB0ED /* Debug */,
+				0065A68950CA486EB688D14C /* Release */,
+				B8BDC0D1C4A6476DBCA2985B /* MinSizeRel */,
+				B3139F9FB2AA41AA9F9D6C03 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		753759BB062F423FAE7197DC /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1CFC7749474F669E98DF6A /* Debug */,
+				13B072421118439D999BA293 /* Release */,
+				C02F5A9F1AA3409C8F4E4573 /* MinSizeRel */,
+				ACC5EEE22DE848FD957E6B5B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		870CD238F8734501B900806E /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAC37E16257454F85A1F970 /* Debug */,
+				C8229E6216414728AB1951B5 /* Release */,
+				6A0A6D4CF2D24683A42D7691 /* MinSizeRel */,
+				890D86418F97452E86839C55 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94B75F6CED0A44449B5D9048 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937F1D438DAC4533A90A43FB /* Debug */,
+				F8A8D5D2CC5547E98A746621 /* Release */,
+				B51C0B33BC15490887720357 /* MinSizeRel */,
+				B129117C9688498C9B3D3346 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A46CDF8A27A94A98B42A81FD /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D951C83DCD954384A6F72243 /* Debug */,
+				B23CC9847A074983947D05D4 /* Release */,
+				812785AD53214A76A00FFD29 /* MinSizeRel */,
+				073A245DFF5641A2A478F0FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C376E08389134E7FAED9FB81 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D4239D9D7C4E3CBD8720E1 /* Debug */,
+				78C428C1322D4CF59E2CE3F3 /* Release */,
+				0B70E375CB7548F79153D258 /* MinSizeRel */,
+				8C9E8C2B5D2143B982E69671 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43DB225E633743C698EFFF52 /* Project object */;
+}
