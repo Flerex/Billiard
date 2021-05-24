@@ -1,0 +1,93 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb055e8bb5d520234950f94d470a5384822d"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb057366e94a190acbc1a5f8bdb9e4ae553a"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb05d83895a1dda01503820f429541324ede"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb0512bf341a93d34e77e2d6fb2ddb7a3f2a"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb056584e9b4fa5ebac0708d77e9ec92ad4e"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb05f53a44f7b70e8355a4ed8517eb805314"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb053a16423e053539c423f7c64776a22e34"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb05c31de804ca19ae4ecc5973c68be06bc0"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb058f4441c7a7be303f5c7445ed56e611f2"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb050d364980b035e8e07b84254a214e9ed7"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb05e538536cdbb095e7ab0fc218fdb323fd"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb057be17dfc7c3c1cad0d6b826b9b719b42"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb0551a57c4ef01aba66322a8959878dc8dc"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb05e4de3f0e6991c0029ec14deecb4563ad"
+    },
+    {
+      "guid" : "0bfb129b7b05d458cc2ae7f762a7cb053b65235ad7a85521bdf6e3c898f5387d"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/fbretal/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/fbretal/Library/Developer/Xcode/DerivedData/Billiard-ajbfmkwltnbegufyehrxzlnrexvx/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/fbretal/Library/Developer/Xcode/DerivedData/Billiard-ajbfmkwltnbegufyehrxzlnrexvx/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

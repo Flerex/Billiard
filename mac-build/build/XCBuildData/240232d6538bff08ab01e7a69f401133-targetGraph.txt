@@ -1,0 +1,49 @@
+Target dependency graph (14 targets)
+ZERO_CHECK in Billiard
+ext_recast in Billiard
+ext_tinyxml2 in Billiard
+ext_xxhash in Billiard
+ext_xxtea in Billiard
+ext_clipper in Billiard
+ext_edtaa3func in Billiard
+ext_convertUTF in Billiard
+ext_poly2tri in Billiard
+ext_md5 in Billiard
+ext_unzip in Billiard
+external in Billiard, depends on:
+ext_recast in Billiard (explicit)
+ext_tinyxml2 in Billiard (explicit)
+ext_xxhash in Billiard (explicit)
+ext_xxtea in Billiard (explicit)
+ext_clipper in Billiard (explicit)
+ext_edtaa3func in Billiard (explicit)
+ext_convertUTF in Billiard (explicit)
+ext_poly2tri in Billiard (explicit)
+ext_md5 in Billiard (explicit)
+ext_unzip in Billiard (explicit)
+cocos2d in Billiard, depends on:
+external in Billiard (explicit)
+ext_recast in Billiard (explicit)
+ext_tinyxml2 in Billiard (explicit)
+ext_xxhash in Billiard (explicit)
+ext_xxtea in Billiard (explicit)
+ext_clipper in Billiard (explicit)
+ext_edtaa3func in Billiard (explicit)
+ext_convertUTF in Billiard (explicit)
+ext_poly2tri in Billiard (explicit)
+ext_md5 in Billiard (explicit)
+ext_unzip in Billiard (explicit)
+Billiard in Billiard, depends on:
+ZERO_CHECK in Billiard (explicit)
+cocos2d in Billiard (explicit)
+external in Billiard (explicit)
+ext_recast in Billiard (explicit)
+ext_tinyxml2 in Billiard (explicit)
+ext_xxhash in Billiard (explicit)
+ext_xxtea in Billiard (explicit)
+ext_clipper in Billiard (explicit)
+ext_edtaa3func in Billiard (explicit)
+ext_convertUTF in Billiard (explicit)
+ext_poly2tri in Billiard (explicit)
+ext_md5 in Billiard (explicit)
+ext_unzip in Billiard (explicit)
