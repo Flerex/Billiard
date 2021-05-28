@@ -24,6 +24,14 @@
 		<data>
 		q+0cCNCwxXDmiXrlLNBDaeNPqnI=
 		</data>
+		<key>Resources/assets/bar.png</key>
+		<data>
+		jgxWq2OS3eZSguVwsrIBcgs9HPE=
+		</data>
+		<key>Resources/assets/hole.png</key>
+		<data>
+		KtJ/ZBiPD6c+Wbp0F/4ofuBD3yc=
+		</data>
 		<key>Resources/assets/stick.png</key>
 		<data>
 		cpB5zrTAVopuP38kasJREymhkqk=
@@ -140,6 +148,20 @@
 			<key>hash2</key>
 			<data>
 			ueoXdIxn5t8sy7/dAMfZevxcEVFfO8wEv3rufvRW4xo=
+			</data>
+		</dict>
+		<key>Resources/assets/bar.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o7QBqjtPDylXXD7ESOUeLR1gebXal4p3bTDE7zQMtHo=
+			</data>
+		</dict>
+		<key>Resources/assets/hole.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m1YLebAqW6qXzXwMLb2HRRZBxuLQqkRxAmWNcEx30Dk=
 			</data>
 		</dict>
 		<key>Resources/assets/stick.png</key>

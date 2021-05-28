@@ -51,5 +51,5 @@ void MainScene::menuCloseCallback(Ref* pSender)
 void MainScene::menuPlayCallback(Ref* pSender)
 {
     auto scene = BoardScene::createScene();
-    Director::getInstance()->replaceScene(TransitionFlipX::create(2, scene));
+    Director::getInstance()->replaceScene(TransitionFade::create(0.5, scene, Color3B(0, 0, 0)));
 }

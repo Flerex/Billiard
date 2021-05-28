@@ -1,4 +1,4 @@
-dependencies: /Users/fbretal/software/Billiard/BoardScene.cp \
+dependencies: /Users/fbretal/software/Billiard/Classes/BoardScene.cp \
   /Users/fbretal/software/Billiard/Classes/BoardScene.h \
   /Users/fbretal/software/Billiard/cocos2d/cocos/cocos2d.h \
   /Users/fbretal/software/Billiard/cocos2d/cocos/base/ccConfig.h \
@@ -202,4 +202,6 @@ dependencies: /Users/fbretal/software/Billiard/BoardScene.cp \
   /Users/fbretal/software/Billiard/cocos2d/cocos/3d/CCSprite3D.h \
   /Users/fbretal/software/Billiard/cocos2d/cocos/3d/CCSprite3DMaterial.h \
   /Users/fbretal/software/Billiard/cocos2d/cocos/3d/CCTerrain.h \
-  /Users/fbretal/software/Billiard/cocos2d/cocos/3d/CCVertexAttribBinding.h
+  /Users/fbretal/software/Billiard/cocos2d/cocos/3d/CCVertexAttribBinding.h \
+  /Users/fbretal/software/Billiard/Classes/Model/Game.hpp \
+  /Users/fbretal/software/Billiard/Classes/GameOverScene.h

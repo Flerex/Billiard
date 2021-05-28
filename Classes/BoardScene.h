@@ -2,6 +2,7 @@
 #define __BOARD_SCENE_H__
 
 #include "cocos2d.h"
+#include "Model/Game.hpp"
 
 class BoardScene : public cocos2d::Scene
 {
@@ -12,15 +13,23 @@ public:
     
     CREATE_FUNC(BoardScene);
     
-private:
+protected:
+    cocos2d::Label * _score;
     Node* _board;
     Node* _stick;
     Node* _whiteBall;
+    Node* _balls[15];
+    Game* _game;
     
+    int currentLevel();
+    int nextLevel();
+    
+    void createGame();
     void addScoreboard();
     void addBoard();
     void addBall();
     void addBallSet();
+    void addHoles();
     void addStick();
     void setupMouseEvent();
     void addContactListener();
@@ -34,6 +43,9 @@ private:
     
     cocos2d::PhysicsBody* getBallPhysicsBody();
     cocos2d::PhysicsBody* getStickPhysicsBody();
+    cocos2d::PhysicsBody* getHolePhysicsBody();
+    
+    ~BoardScene();
 };
 
 #endif // __BOARD_SCENE_H__

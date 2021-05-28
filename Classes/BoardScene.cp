@@ -1,4 +1,5 @@
 #include "BoardScene.h"
+#include "GameOverScene.h"
 
 #include <math.h>
 
@@ -7,6 +8,8 @@ USING_NS_CC;
 #define BALL_TAG 1
 #define STICK_TAG 2
 #define WHITE_TAG 3
+#define HOLE_TAG 4
+#define BOARD_TAG 5
 
 Scene* BoardScene::createScene()
 {
@@ -23,19 +26,35 @@ bool BoardScene::init()
     
     scheduleUpdate();
     
+    this->createGame();
     this->addScoreboard();
     this->addBoard();
     this->addBall();
     this->addBallSet();
     this->addStick();
+    this->addHoles();
     this->setupMouseEvent();
     this->addContactListener();
     
-    //this->getPhysicsWorld()->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
+    // this->getPhysicsWorld()->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
 
     return true;
 }
 
+int BoardScene::currentLevel()
+{
+    return 1;
+}
+
+int BoardScene::nextLevel()
+{
+    return 2;
+}
+
+void BoardScene::createGame()
+{
+    this->_game = new Game;
+}
 
 void BoardScene::addScoreboard()
 {
@@ -45,6 +64,8 @@ void BoardScene::addScoreboard()
     auto scoreBoard = Label::createWithTTF("0", "fonts/Marker Felt.ttf", 24);
     auto position = Vec2(origin.x + visibleSize.width/2, origin.y + visibleSize.height - scoreBoard->getContentSize().height - 10);
     scoreBoard->setPosition(position);
+    
+    this->_score = scoreBoard;
     
     this->addChild(scoreBoard, 10);
 }
@@ -61,10 +82,10 @@ void BoardScene::addBoard()
     auto rectNode = DrawNode::create();
     
     Vec2 rectangle[4] = {
-        rectangle[0] = Vec2(-width, -height),
-        rectangle[1] = Vec2(width, -height),
-        rectangle[2] = Vec2(width, height),
-        rectangle[3] = Vec2(-width, height)
+        Vec2(-width, -height),
+        Vec2(width, -height),
+        Vec2(width, height),
+        Vec2(-width, height)
     };
 
     Color4F boardColor(118/255.0, 157/255.0, 122/255.0, 1);
@@ -80,8 +101,12 @@ void BoardScene::addBoard()
     this->addChild(rectNode);
         
     auto edgeBox = PhysicsBody::createEdgeBox(visibleSize, PHYSICSBODY_MATERIAL_DEFAULT, borderSize);
+    edgeBox->setContactTestBitmask(0xFFFFFFFF);
     
     rectNode->addComponent(edgeBox);
+    
+    rectNode->setTag(BOARD_TAG);
+    
     
     this->_board = rectNode;
 }
@@ -103,9 +128,31 @@ void BoardScene::addBall()
     this->_whiteBall = sprite;
 }
 
+void BoardScene::addHoles()
+{
+    auto visibleSize = Director::getInstance()->getVisibleSize();
+    Vec2 origin = Director::getInstance()->getVisibleOrigin();
+    
+    
+    Vec2 positions[4] = {
+        Vec2(5, 5),
+        Vec2(visibleSize.width - 5, 5),
+        Vec2(5, visibleSize.height - 5),
+        Vec2(visibleSize.width - 5, visibleSize.height - 5)
+    };
+    
+    for (int i = 0; i < sizeof(positions)/sizeof(Vec2); i++)
+    {
+        auto sprite = Sprite::create("assets/hole.png");
+        sprite->setPosition(positions[i]);
+        sprite->addComponent(this->getHolePhysicsBody());
+        this->addChild(sprite);
+        sprite->setTag(HOLE_TAG);
+    }
+}
+
 void BoardScene::addBallSet()
 {
-    
     auto visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     
@@ -121,6 +168,7 @@ void BoardScene::addBallSet()
             sprite->addComponent(this->getBallPhysicsBody());
             sprite->setTag(BALL_TAG);
 
+            this->_balls[currentNumber - 1] = sprite;
             offsetY += 50 + 10;
             currentNumber++;
         }
@@ -166,6 +214,17 @@ PhysicsBody* BoardScene::getBallPhysicsBody()
     
     return physicsBody;
     
+}
+
+PhysicsBody* BoardScene::getHolePhysicsBody()
+{
+    auto physicsBody = PhysicsBody::createCircle(50, PHYSICSBODY_MATERIAL_DEFAULT);
+    
+    physicsBody->setGravityEnable(false);
+    physicsBody->setContactTestBitmask(0xFFFFFFFF);
+    physicsBody->setDynamic(false);
+
+    return physicsBody;
 }
 
 PhysicsBody* BoardScene::getStickPhysicsBody()
@@ -237,11 +296,51 @@ bool BoardScene::onContactBegin(PhysicsContact& contact)
         if ((nodeA->getTag() == STICK_TAG && nodeB->getTag() == WHITE_TAG)
             || (nodeB->getTag() == STICK_TAG && nodeA->getTag() == WHITE_TAG))
         {
-            
-            printf("IMPULSE!\n");
             auto whiteBall = nodeA->getTag() == WHITE_TAG ? nodeA : nodeB;
-            whiteBall->getPhysicsBody()->setVelocity(Vec2(cocos2d::random(-500,500), cocos2d::random(-500,500)));
+            auto stick = nodeA->getTag() == STICK_TAG ? nodeA : nodeB;
+            
+            
+            auto stickPosition = stick->getPosition();
+            auto whitePosition = whiteBall->getPosition();
+            
+            auto speedVector = Vec2((stickPosition.x - whitePosition.x) * -60, (stickPosition.y - whitePosition.y) * -60);
+            whiteBall->getPhysicsBody()->setVelocity(speedVector);
             //whiteBall->getPhysicsBody()->applyForce(Vec2(2000.5, 2000.5));
+            return false;
+        }
+        
+
+        if ((nodeA->getTag() == HOLE_TAG && nodeB->getTag() == BALL_TAG)
+            || (nodeB->getTag() == HOLE_TAG && nodeA->getTag() == BALL_TAG))
+        {
+            auto ball = nodeA->getTag() == BALL_TAG ? nodeA : nodeB;
+            
+
+    
+            int ballNumber = 0;
+            for (int i = 0; i < sizeof(this->_balls) / sizeof(Node *); i++)
+            {
+                if (this->_balls[i] == ball) {
+                    ballNumber = i;
+                    break;
+                }
+            }
+            
+            auto gameIsFinished = this->_game->removeBall(ballNumber);
+            
+            ball->removeFromParentAndCleanup(true);
+            this->_score->setString(std::to_string(this->_game->getPoints()));
+            
+            if (gameIsFinished)
+            {
+                auto points = this->_game->getPoints();
+                
+                auto won = this->_game->currentState() == Game::finished;
+                Scene* scene = GameOverScene::createScene(points, this->currentLevel(), this->nextLevel(), won);
+                
+                Director::getInstance()->replaceScene(TransitionFade::create(0.5, scene, Color3B(0, 0, 0)));
+            }
+            
             return false;
         }
     }
@@ -261,4 +360,9 @@ void BoardScene::update(float dt)
     );
 
     this->_stick->setRotation(angle * (180 / M_PI));
+}
+
+BoardScene::~BoardScene()
+{
+    delete _game;
 }

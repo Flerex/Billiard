@@ -361,11 +361,14 @@
 		8F40E70B8A9F498DAD493611 /* CCAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD0C7749A67944B6AD8D1FA3 /* CCAnimation.cpp */; };
 		8FAABB230E2E4549871AEED2 /* CCFontAtlasCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFB8089EB19C4246A4A17700 /* CCFontAtlasCache.cpp */; };
 		8FCCD29E6B464F81874E1B95 /* CCMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52763CC0B8D34DE098659383 /* CCMaterial.cpp */; };
+		900F0EE5265FFDB900E20E4A /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900F0EE3265FFDB900E20E4A /* Game.cpp */; };
+		900F0EE7266134D700E20E4A /* GameOverScene.cp in Sources */ = {isa = PBXBuildFile; fileRef = 900F0EE6266134D700E20E4A /* GameOverScene.cp */; };
 		9030BA452659553D00AD45CD /* MainScene.cp in Sources */ = {isa = PBXBuildFile; fileRef = 906AB178265950D7000B031D /* MainScene.cp */; };
 		9030BA472659578A00AD45CD /* BoardScene.cp in Sources */ = {isa = PBXBuildFile; fileRef = 9030BA462659578A00AD45CD /* BoardScene.cp */; };
 		9030BA692659872100AD45CD /* balls in Resources */ = {isa = PBXBuildFile; fileRef = 9030BA682659872100AD45CD /* balls */; };
 		9030BA6D265AB84600AD45CD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 9030BA6C265AB84600AD45CD /* assets */; };
 		90499B49DAB544C78A49920B /* CCPUDoAffectorEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C70B52E174354663AF428699 /* CCPUDoAffectorEventHandler.cpp */; };
+		9076223E26614FBF00644A68 /* SecondLevelBoardScene.cp in Sources */ = {isa = PBXBuildFile; fileRef = 9076223C2661415400644A68 /* SecondLevelBoardScene.cp */; };
 		910BCC3962C04A27922EA31B /* CCControlButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56D0D6EDF7AB4AD28F2DF7E7 /* CCControlButton.cpp */; };
 		911BB98A7BDA4AF488ECFC83 /* CCRenderTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EA2344E734AECAC0A3DAB /* CCRenderTexture.cpp */; };
 		9128230C72E2447A8DF1B1E4 /* Manifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA42B2151C64CA8B39DF864 /* Manifest.cpp */; };
@@ -1639,6 +1642,10 @@
 		8DF7C9E9D53F4455805F9ECE /* CommandBufferMTL.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CommandBufferMTL.mm; path = cocos2d/cocos/renderer/backend/metal/CommandBufferMTL.mm; sourceTree = SOURCE_ROOT; };
 		8E13758AF0AC4E3EAB44BA49 /* DeviceMTL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DeviceMTL.h; path = cocos2d/cocos/renderer/backend/metal/DeviceMTL.h; sourceTree = SOURCE_ROOT; };
 		8EA72AD481D14AF89303009E /* CCPUInterParticleColliderTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUInterParticleColliderTranslator.cpp; path = cocos2d/extensions/Particle3D/PU/CCPUInterParticleColliderTranslator.cpp; sourceTree = SOURCE_ROOT; };
+		900F0EE3265FFDB900E20E4A /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = Classes/Model/Game.cpp; sourceTree = "<group>"; };
+		900F0EE4265FFDB900E20E4A /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Game.hpp; path = Classes/Model/Game.hpp; sourceTree = "<group>"; };
+		900F0EE6266134D700E20E4A /* GameOverScene.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameOverScene.cp; path = Classes/GameOverScene.cp; sourceTree = "<group>"; };
+		900F0EE82661350800E20E4A /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = Classes/GameOverScene.h; sourceTree = "<group>"; };
 		901E4A759EBB45A3B9E7E820 /* CCAttachNode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCAttachNode.h; path = cocos2d/cocos/3d/CCAttachNode.h; sourceTree = SOURCE_ROOT; };
 		90232CEEAB0E408FA2C776D3 /* UIScrollViewBar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UIScrollViewBar.h; path = cocos2d/cocos/ui/UIScrollViewBar.h; sourceTree = SOURCE_ROOT; };
 		9030BA462659578A00AD45CD /* BoardScene.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BoardScene.cp; path = Classes/BoardScene.cp; sourceTree = "<group>"; };
@@ -1648,6 +1655,8 @@
 		906178DDA9334E388A1ED83B /* MathUtil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MathUtil.h; path = cocos2d/cocos/math/MathUtil.h; sourceTree = SOURCE_ROOT; };
 		906AB177265950D0000B031D /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScene.h; path = Classes/MainScene.h; sourceTree = "<group>"; };
 		906AB178265950D7000B031D /* MainScene.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cp; path = Classes/MainScene.cp; sourceTree = "<group>"; };
+		9076223C2661415400644A68 /* SecondLevelBoardScene.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SecondLevelBoardScene.cp; path = Classes/SecondLevelBoardScene.cp; sourceTree = "<group>"; };
+		9076223D2661415A00644A68 /* SecondLevelBoardScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondLevelBoardScene.h; path = Classes/SecondLevelBoardScene.h; sourceTree = "<group>"; };
 		90E82CE8D12F4CD1BE804F18 /* CCPUCircleEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUCircleEmitter.h; path = cocos2d/extensions/Particle3D/PU/CCPUCircleEmitter.h; sourceTree = SOURCE_ROOT; };
 		911FD535AA75455CB9CC4F56 /* CCDownloader-apple.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "CCDownloader-apple.mm"; path = "cocos2d/cocos/network/CCDownloader-apple.mm"; sourceTree = SOURCE_ROOT; };
 		91D60DBBF9C04F8B97F557F4 /* UITabControl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UITabControl.h; path = cocos2d/cocos/ui/UITabControl.h; sourceTree = SOURCE_ROOT; };
@@ -3769,6 +3778,15 @@
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
+		900F0EE2265FFD8700E20E4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				900F0EE3265FFDB900E20E4A /* Game.cpp */,
+				900F0EE4265FFDB900E20E4A /* Game.hpp */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		92977032E99A4363B6986D08 /* 3d */ = {
 			isa = PBXGroup;
 			children = (
@@ -3886,14 +3904,19 @@
 		A05E92B7765A4AEBAC2F284A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				900F0EE2265FFD8700E20E4A /* Model */,
 				193BDFCC36694040B199B2BB /* AppDelegate.cpp */,
 				18AA4B3DA36044E5B0C60E12 /* AppDelegate.h */,
-				8B3855E75A7C47CE950E64A6 /* HelloWorldScene.cpp */,
-				906AB178265950D7000B031D /* MainScene.cp */,
-				9030BA462659578A00AD45CD /* BoardScene.cp */,
 				5B66849C1B774CAA9F4DF561 /* HelloWorldScene.h */,
+				8B3855E75A7C47CE950E64A6 /* HelloWorldScene.cpp */,
 				906AB177265950D0000B031D /* MainScene.h */,
+				906AB178265950D7000B031D /* MainScene.cp */,
 				9030BA482659579000AD45CD /* BoardScene.h */,
+				9030BA462659578A00AD45CD /* BoardScene.cp */,
+				9076223D2661415A00644A68 /* SecondLevelBoardScene.h */,
+				9076223C2661415400644A68 /* SecondLevelBoardScene.cp */,
+				900F0EE82661350800E20E4A /* GameOverScene.h */,
+				900F0EE6266134D700E20E4A /* GameOverScene.cp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -4642,8 +4665,11 @@
 				9030BA452659553D00AD45CD /* MainScene.cp in Sources */,
 				8EF392C9C66C4108ADDED74B /* AppDelegate.cpp in Sources */,
 				DCDE0CE6AE384CDC885296E0 /* HelloWorldScene.cpp in Sources */,
+				9076223E26614FBF00644A68 /* SecondLevelBoardScene.cp in Sources */,
+				900F0EE5265FFDB900E20E4A /* Game.cpp in Sources */,
 				9030BA472659578A00AD45CD /* BoardScene.cp in Sources */,
 				661D0FB0F6A948238E76C3CB /* main.cpp in Sources */,
+				900F0EE7266134D700E20E4A /* GameOverScene.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
